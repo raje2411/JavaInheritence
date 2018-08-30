@@ -13,7 +13,7 @@ class TriangleNewShape1 extends TwoDShapeNew { // Sub-class which is an extensio
 	String style;
 
 	TriangleNewShape1(String s, double w, double h) { // Defined constructor for sub-class only
-		setWidth(w);  // Constructing the super class objects using super class methods.
+		setWidth(w); // Constructing the super class objects using super class methods.
 		setHeight(h); // Constructing the super class objects using super class methods.
 		style = s;
 	}
