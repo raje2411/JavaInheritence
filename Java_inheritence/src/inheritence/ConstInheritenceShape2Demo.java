@@ -84,7 +84,7 @@ public class ConstInheritenceShape2Demo {
 			System.out.println("Objects area");
 			System.out.println("");
 			System.out.println(i.area());
-			System.out.println("+++++++++++");
+			System.out.println("++++++++++");
 		}
 
 	}
