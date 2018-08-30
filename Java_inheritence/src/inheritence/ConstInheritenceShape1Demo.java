@@ -10,13 +10,13 @@ import inheritence.TwoDShapeNew; //Not needed as this class is also in the packa
 
 class TriangleNewShape1 extends TwoDShapeNew { // Sub-class which is an extension of TwoDShape super class
 
-	String style;
-
 	TriangleNewShape1(String s, double w, double h) { // Defined constructor for sub-class only
 		setWidth(w); // Constructing the super class objects using super class methods.
 		setHeight(h); // Constructing the super class objects using super class methods.
 		style = s;
 	}
+
+	String style;
 
 	double area() {
 		return (getWidth() * getHeight() * 1 / 2); // Now it can't access the super classes member directly.so using
