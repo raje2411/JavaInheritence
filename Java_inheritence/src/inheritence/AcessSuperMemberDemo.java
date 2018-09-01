@@ -3,25 +3,32 @@
  */
 package inheritence;
 
-class A {
+ class A {
 	int i;
+	int get_var(){
+		return i;
+	}
+	void set_var(int x){
+		i=x;
+	}
 }
 
 class B extends A {
 	int i;
 
 	B(int x, int y) {
-		super.i = y;
+		set_var(y);
 		i = x;
 	}
 
 	B(int x) {
-		super.i = x;
+		set_var(x);
 		i = x;
 	}
 
 	B() {
-		i = super.i = 0;
+		set_var(0);
+		i  = 0;
 	}
 
 	void show_var() {
