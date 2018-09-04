@@ -42,7 +42,7 @@ class TraingleNewShape6 extends TwoDShapeNew6 { // Sub-class which is an extensi
 	}
 
 	void showStyle() {
-		System.out.println("Triangle style is " + style);
+		System.out.println("Triangle style is \"" + style+"\"");
 	}
 
 }
